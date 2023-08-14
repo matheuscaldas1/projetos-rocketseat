@@ -1,11 +1,27 @@
 import { styled } from './styles'
 
-const Button = styled('button', {
+export const Button = styled('button', {
   fontFamily: '$default',
   backgroundColor: '$ignite500',
-  borderRadius: '$md',
-})
+  borderRadius: '$sm',
+  border: 0,
+  fontWeight: 'bold',
+  color: '$white',
 
-export function App() {
-  return <Button>Hello World</Button>
-}
+  variants: {
+    sizes: {
+      small: {
+        fontSize: 14,
+        padding: '$2 $4',
+      },
+      big: {
+        fontSize: 16,
+        padding: '$3 $6',
+      },
+    },
+  },
+
+  defaultVariants: {
+    sizes: 'small',
+  },
+})
