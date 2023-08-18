@@ -5,6 +5,7 @@ import { Box, Text, TextArea } from '@ignite-ui/react'
 const meta: Meta<typeof TextArea> = {
   title: 'Form/TextArea',
   component: TextArea,
+  tags: ['autodocs'],
   args: {},
   decorators: [
     (Story) => {

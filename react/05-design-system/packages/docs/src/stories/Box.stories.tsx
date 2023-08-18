@@ -5,6 +5,7 @@ import { Box, Text } from '@ignite-ui/react'
 const meta: Meta<typeof Box> = {
   title: 'Surfaces/Box',
   component: Box,
+  tags: ['autodocs'],
   args: {
     children: (
       <>

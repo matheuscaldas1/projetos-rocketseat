@@ -5,6 +5,7 @@ import { Box, Text, TextInput } from '@ignite-ui/react'
 const meta: Meta<typeof TextInput> = {
   title: 'Form/TextInput',
   component: TextInput,
+  tags: ['autodocs'],
   args: {},
   decorators: [
     (Story) => {
