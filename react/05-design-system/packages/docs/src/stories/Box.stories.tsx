@@ -1,6 +1,6 @@
 import React from 'react'
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box } from '@ignite-ui/react'
+import { Box, Text } from '@ignite-ui/react'
 
 const meta: Meta<typeof Box> = {
   title: 'Surfaces/Box',
@@ -8,7 +8,7 @@ const meta: Meta<typeof Box> = {
   args: {
     children: (
       <>
-        <span>Testando o elemento box</span>
+        <Text>Testando o elemento box</Text>
       </>
     ),
   },
